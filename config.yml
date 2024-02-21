@@ -3,7 +3,7 @@ scrolling: # paramètres du bloc d'affichage
     direction:  left # left -> de droite à gauche, right -> de gauche à droite
     fixed_text: 4 # taille de l'espace du texte fixe
     length:     33 # taille de l'espace du défilement du texte
-    position:   [3, 4] # position en [x, y] du bloc d'affichage, x -> n° colonne, y -> n° de ligne
+    position:   [3, 4] # position en [x, y] du bloc d'affichage, x -> n° ligne, y -> n° de colonne
     speed:      250 # vitesse en ms
   vertical: # configuration pour le format vertical
     direction:  up # haut -> de bas en haut, down -> de haut en bas
