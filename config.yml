@@ -1,0 +1,17 @@
+scrolling: # paramètres du bloc d'affichage
+  horizontal: # configuration pour le format horizontal
+    direction:  left # left -> de droite à gauche, right -> de gauche à droite
+    fixed_text: 4 # taille de l'espace du texte fixe
+    length:     33 # taille de l'espace du défilement du texte
+    position:   [3, 4] # position en [x, y] du bloc d'affichage, x -> n° colonne, y -> n° de ligne
+    speed:      250 # vitesse en ms
+  vertical: # configuration pour le format vertical
+    direction:  up # haut -> de bas en haut, down -> de haut en bas
+    fixed_text: 4
+    length:     10
+    position:   [5, 3]
+    speed:      500
+text: # paramètres des éléments textuels
+  fixed:  1991 # texte fixe
+  scroll: # texte à faire défiler
+    Date de la première version du langage Python
