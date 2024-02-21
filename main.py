@@ -86,7 +86,7 @@ class Scrolling:
 
 if __name__ == "__main__" :
     scroll = Scrolling()
-    scroll.direction = "vertical"
+    # scroll.direction = "vertical"
     # scroll.direction = "horizontal"
     # scroll.modify("scroll", "La fleur en bouquet fane… Et jamais ne renaît !")
     # scroll.modify("fixed", "你好")
